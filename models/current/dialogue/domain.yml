@@ -1,0 +1,108 @@
+%YAML 1.1
+---
+actions:
+- action_detect_difficulty_emotions_ask_assignments
+- utter_ask_course
+- utter_thanks
+- action_detect_assignments_emotions_ask_mentors
+- utter_greet
+- action_detect_lectures_emotions_ask_scale
+- action_detect_mentors_emotions_ask_lectures
+- utter_ask_difficulty
+- utter_goodbye
+config:
+  store_entities_as_slots: true
+entities:
+- student_name
+- lectures_text
+- mentors_text
+- assignments_text
+- course_name
+- difficulty_text
+forms: []
+intents:
+- intro:
+    use_entities: true
+- greet:
+    use_entities: true
+- course:
+    use_entities: true
+- scale:
+    use_entities: true
+- lectures:
+    use_entities: true
+- assignments:
+    use_entities: true
+- difficulty:
+    use_entities: true
+- goodbye:
+    use_entities: true
+- thanks:
+    use_entities: true
+- review:
+    use_entities: true
+- mentors:
+    use_entities: true
+slots:
+  assignments_text:
+    auto_fill: true
+    initial_value: null
+    type: rasa_core.slots.UnfeaturizedSlot
+  course_name:
+    auto_fill: true
+    initial_value: null
+    type: rasa_core.slots.TextSlot
+  difficulty_text:
+    auto_fill: true
+    initial_value: null
+    type: rasa_core.slots.UnfeaturizedSlot
+  lectures_text:
+    auto_fill: true
+    initial_value: null
+    type: rasa_core.slots.UnfeaturizedSlot
+  mentors_text:
+    auto_fill: true
+    initial_value: null
+    type: rasa_core.slots.UnfeaturizedSlot
+  sentiment_assignments_score:
+    auto_fill: true
+    initial_value: null
+    type: rasa_core.slots.UnfeaturizedSlot
+  sentiment_difficulty_score:
+    auto_fill: true
+    initial_value: null
+    type: rasa_core.slots.UnfeaturizedSlot
+  sentiment_mentors_score:
+    auto_fill: true
+    initial_value: null
+    type: rasa_core.slots.UnfeaturizedSlot
+  student_name:
+    auto_fill: true
+    initial_value: null
+    type: rasa_core.slots.TextSlot
+templates:
+  utter_ask_course:
+  - text: Nice to meet you {student_name}, May I ask you what was the last course
+      you took in OMSCS?
+  - text: Please to meet you {student_name}, I knew you are an OMSCS student, May
+      I know what was the last course you took?
+  - text: Glad I am talking to you {student_name}, You are an OMSCS student if I am
+      right, what was your last course?
+  utter_ask_difficulty:
+  - text: 'Alright, and how do you briefly describe the difficulty level of this course:
+      {course_name}?'
+  - text: 'Ok, how difficult is this course: {course_name}?'
+  utter_goodbye:
+  - text: Take care, talk to you later
+  - text: bye bye
+  - text: goodbye
+  utter_greet:
+  - text: Hello my name is Labeeb, tell me your name.
+  - text: Hi, this is Labeeb, what is your name
+  - text: Hello, my name is Labeeb, what's your name
+  - text: Hello, my name is Labeeb, may I know your name
+  - text: Salam, my name is Labeeb, what's your name
+  utter_thanks:
+  - text: Thank you for your time
+  - text: That was nice review, good luck in your courses, thanks
+  - text: Nice, good luck in your courses, thank you

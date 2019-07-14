@@ -1,0 +1,3025 @@
+{
+  "rasa_nlu_data": {
+    "common_examples": [
+      {
+        "intent": "goodbye",
+        "text": "Bye"
+      },
+      {
+        "intent": "goodbye",
+        "text": "Goodbye"
+      },
+      {
+        "intent": "goodbye",
+        "text": "See you later"
+      },
+      {
+        "intent": "goodbye",
+        "text": "Bye bot"
+      },
+      {
+        "intent": "goodbye",
+        "text": "Goodbye friend"
+      },
+      {
+        "intent": "goodbye",
+        "text": "bye"
+      },
+      {
+        "intent": "goodbye",
+        "text": "bye for now"
+      },
+      {
+        "intent": "goodbye",
+        "text": "catch you later"
+      },
+      {
+        "intent": "goodbye",
+        "text": "gotta go"
+      },
+      {
+        "intent": "goodbye",
+        "text": "See you"
+      },
+      {
+        "intent": "goodbye",
+        "text": "goodnight"
+      },
+      {
+        "intent": "goodbye",
+        "text": "have a nice day"
+      },
+      {
+        "intent": "goodbye",
+        "text": "i'm off"
+      },
+      {
+        "intent": "goodbye",
+        "text": "see you later alligator"
+      },
+      {
+        "intent": "goodbye",
+        "text": "we'll speak soon"
+      },
+      {
+        "intent": "goodbye",
+        "text": "byee"
+      },
+      {
+        "intent": "goodbye",
+        "text": "goobye"
+      },
+      {
+        "intent": "goodbye",
+        "text": "No problem"
+      },
+      {
+        "intent": "goodbye",
+        "text": "It is ok"
+      },
+      {
+        "intent": "goodbye",
+        "text": "With pleasure"
+      },
+      {
+        "intent": "goodbye",
+        "text": "Not at all"
+      },
+      {
+        "intent": "goodbye",
+        "text": "welcome"
+      },
+      {
+        "intent": "goodbye",
+        "text": "you are welcome"
+      },
+      {
+        "intent": "goodbye",
+        "text": "you'r welcome"
+      },
+      {
+        "intent": "greet",
+        "text": "Hi"
+      },
+      {
+        "intent": "greet",
+        "text": "Hey"
+      },
+      {
+        "intent": "greet",
+        "text": "Hi bot"
+      },
+      {
+        "intent": "greet",
+        "text": "Hey bot"
+      },
+      {
+        "intent": "greet",
+        "text": "Hello"
+      },
+      {
+        "intent": "greet",
+        "text": "Good morning"
+      },
+      {
+        "intent": "greet",
+        "text": "hi again"
+      },
+      {
+        "intent": "greet",
+        "text": "hi folks"
+      },
+      {
+        "intent": "greet",
+        "text": "hi Mister"
+      },
+      {
+        "intent": "greet",
+        "text": "hi pal!"
+      },
+      {
+        "intent": "greet",
+        "text": "hi there"
+      },
+      {
+        "intent": "greet",
+        "text": "greetings"
+      },
+      {
+        "intent": "greet",
+        "text": "hello everybody"
+      },
+      {
+        "intent": "greet",
+        "text": "hello is anybody there"
+      },
+      {
+        "intent": "greet",
+        "text": "hello robot"
+      },
+      {
+        "intent": "thanks",
+        "text": "Thanks"
+      },
+      {
+        "intent": "thanks",
+        "text": "Thank you"
+      },
+      {
+        "intent": "thanks",
+        "text": "Thank you so much"
+      },
+      {
+        "intent": "thanks",
+        "text": "Thanks bot"
+      },
+      {
+        "intent": "thanks",
+        "text": "Thanks for that"
+      },
+      {
+        "intent": "thanks",
+        "text": "cheers"
+      },
+      {
+        "intent": "thanks",
+        "text": "cheers bro"
+      },
+      {
+        "intent": "thanks",
+        "text": "ok thanks!"
+      },
+      {
+        "intent": "thanks",
+        "text": "perfect thank you"
+      },
+      {
+        "intent": "thanks",
+        "text": "thanks a bunch for everything"
+      },
+      {
+        "intent": "thanks",
+        "text": "thanks for the help"
+      },
+      {
+        "intent": "thanks",
+        "text": "thanks a lot"
+      },
+      {
+        "intent": "thanks",
+        "text": "amazing, thanks"
+      },
+      {
+        "intent": "thanks",
+        "text": "cool, thanks"
+      },
+      {
+        "intent": "thanks",
+        "text": "cool thank you"
+      },
+      {
+        "intent": "intro",
+        "entities": [
+          {
+            "start": 11,
+            "end": 16,
+            "value": "Juste",
+            "entity": "student_name"
+          }
+        ],
+        "text": "My name is Juste"
+      },
+      {
+        "intent": "intro",
+        "entities": [
+          {
+            "start": 5,
+            "end": 9,
+            "value": "Josh",
+            "entity": "student_name"
+          }
+        ],
+        "text": "I am Josh"
+      },
+      {
+        "intent": "intro",
+        "entities": [
+          {
+            "start": 4,
+            "end": 8,
+            "value": "Lucy",
+            "entity": "student_name"
+          }
+        ],
+        "text": "I'm Lucy"
+      },
+      {
+        "intent": "intro",
+        "entities": [
+          {
+            "start": 15,
+            "end": 19,
+            "value": "Greg",
+            "entity": "student_name"
+          }
+        ],
+        "text": "People call me Greg"
+      },
+      {
+        "intent": "intro",
+        "entities": [
+          {
+            "start": 5,
+            "end": 10,
+            "value": "David",
+            "entity": "student_name"
+          }
+        ],
+        "text": "It's David"
+      },
+      {
+        "intent": "intro",
+        "entities": [
+          {
+            "start": 23,
+            "end": 26,
+            "value": "Amy",
+            "entity": "student_name"
+          }
+        ],
+        "text": "Usually people call me Amy"
+      },
+      {
+        "intent": "intro",
+        "entities": [
+          {
+            "start": 11,
+            "end": 15,
+            "value": "John",
+            "entity": "student_name"
+          }
+        ],
+        "text": "My name is John"
+      },
+      {
+        "intent": "intro",
+        "entities": [
+          {
+            "start": 16,
+            "end": 19,
+            "value": "Sam",
+            "entity": "student_name"
+          }
+        ],
+        "text": "You can call me Sam"
+      },
+      {
+        "intent": "intro",
+        "entities": [
+          {
+            "start": 15,
+            "end": 20,
+            "value": "Linda",
+            "entity": "student_name"
+          }
+        ],
+        "text": "Please call me Linda"
+      },
+      {
+        "intent": "intro",
+        "entities": [
+          {
+            "start": 13,
+            "end": 16,
+            "value": "Tom",
+            "entity": "student_name"
+          }
+        ],
+        "text": "Name name is Tom"
+      },
+      {
+        "intent": "intro",
+        "entities": [
+          {
+            "start": 5,
+            "end": 12,
+            "value": "Richard",
+            "entity": "student_name"
+          }
+        ],
+        "text": "I am Richard"
+      },
+      {
+        "intent": "intro",
+        "entities": [
+          {
+            "start": 4,
+            "end": 9,
+            "value": "Tracy",
+            "entity": "student_name"
+          }
+        ],
+        "text": "I'm Tracy"
+      },
+      {
+        "intent": "intro",
+        "entities": [
+          {
+            "start": 8,
+            "end": 13,
+            "value": "Sally",
+            "entity": "student_name"
+          }
+        ],
+        "text": "Call me Sally"
+      },
+      {
+        "intent": "intro",
+        "entities": [
+          {
+            "start": 5,
+            "end": 12,
+            "value": "Philipp",
+            "entity": "student_name"
+          }
+        ],
+        "text": "I am Philipp"
+      },
+      {
+        "intent": "intro",
+        "entities": [
+          {
+            "start": 5,
+            "end": 12,
+            "value": "Charlie",
+            "entity": "student_name"
+          }
+        ],
+        "text": "I am Charlie"
+      },
+      {
+        "intent": "intro",
+        "entities": [
+          {
+            "start": 5,
+            "end": 12,
+            "value": "Charlie",
+            "entity": "student_name"
+          }
+        ],
+        "text": "I am Charlie"
+      },
+      {
+        "intent": "intro",
+        "entities": [
+          {
+            "start": 5,
+            "end": 8,
+            "value": "Ben",
+            "entity": "student_name"
+          }
+        ],
+        "text": "I am Ben"
+      },
+      {
+        "intent": "intro",
+        "entities": [
+          {
+            "start": 8,
+            "end": 13,
+            "value": "Susan",
+            "entity": "student_name"
+          }
+        ],
+        "text": "Call me Susan"
+      },
+      {
+        "intent": "intro",
+        "entities": [
+          {
+            "start": 0,
+            "end": 4,
+            "value": "Lucy",
+            "entity": "student_name"
+          }
+        ],
+        "text": "Lucy"
+      },
+      {
+        "intent": "intro",
+        "entities": [
+          {
+            "start": 0,
+            "end": 5,
+            "value": "Peter",
+            "entity": "student_name"
+          }
+        ],
+        "text": "Peter"
+      },
+      {
+        "intent": "intro",
+        "entities": [
+          {
+            "start": 0,
+            "end": 4,
+            "value": "Mark",
+            "entity": "student_name"
+          }
+        ],
+        "text": "Mark"
+      },
+      {
+        "intent": "intro",
+        "entities": [
+          {
+            "start": 0,
+            "end": 6,
+            "value": "Joseph",
+            "entity": "student_name"
+          }
+        ],
+        "text": "Joseph"
+      },
+      {
+        "intent": "intro",
+        "entities": [
+          {
+            "start": 0,
+            "end": 3,
+            "value": "Tan",
+            "entity": "student_name"
+          }
+        ],
+        "text": "Tan"
+      },
+      {
+        "intent": "intro",
+        "entities": [
+          {
+            "start": 0,
+            "end": 4,
+            "value": "Pete",
+            "entity": "student_name"
+          }
+        ],
+        "text": "Pete"
+      },
+      {
+        "intent": "intro",
+        "entities": [
+          {
+            "start": 0,
+            "end": 4,
+            "value": "Elon",
+            "entity": "student_name"
+          }
+        ],
+        "text": "Elon"
+      },
+      {
+        "intent": "intro",
+        "entities": [
+          {
+            "start": 0,
+            "end": 5,
+            "value": "Penny",
+            "entity": "student_name"
+          }
+        ],
+        "text": "Penny"
+      },
+      {
+        "intent": "intro",
+        "entities": [
+          {
+            "start": 0,
+            "end": 5,
+            "value": "Yaser",
+            "entity": "student_name"
+          }
+        ],
+        "text": "Yaser"
+      },
+      {
+        "intent": "intro",
+        "entities": [
+          {
+            "start": 0,
+            "end": 6,
+            "value": "Yasser",
+            "entity": "student_name"
+          }
+        ],
+        "text": "Yasser"
+      },
+      {
+        "intent": "intro",
+        "entities": [
+          {
+            "start": 0,
+            "end": 3,
+            "value": "Ken",
+            "entity": "student_name"
+          }
+        ],
+        "text": "Ken"
+      },
+      {
+        "intent": "intro",
+        "entities": [
+          {
+            "start": 0,
+            "end": 3,
+            "value": "Ali",
+            "entity": "student_name"
+          }
+        ],
+        "text": "Ali"
+      },
+      {
+        "intent": "intro",
+        "entities": [
+          {
+            "start": 8,
+            "end": 14,
+            "value": "Andrew",
+            "entity": "student_name"
+          }
+        ],
+        "text": "Name is Andrew"
+      },
+      {
+        "intent": "intro",
+        "entities": [
+          {
+            "start": 2,
+            "end": 6,
+            "value": "Lora",
+            "entity": "student_name"
+          }
+        ],
+        "text": "I Lora"
+      },
+      {
+        "intent": "intro",
+        "entities": [
+          {
+            "start": 0,
+            "end": 4,
+            "value": "Stan",
+            "entity": "student_name"
+          }
+        ],
+        "text": "Stan is my name"
+      },
+      {
+        "intent": "intro",
+        "entities": [
+          {
+            "start": 0,
+            "end": 5,
+            "value": "Susan",
+            "entity": "student_name"
+          }
+        ],
+        "text": "Susan is the name"
+      },
+      {
+        "intent": "intro",
+        "entities": [
+          {
+            "start": 0,
+            "end": 4,
+            "value": "Ross",
+            "entity": "student_name"
+          }
+        ],
+        "text": "Ross is my first name"
+      },
+      {
+        "intent": "intro",
+        "entities": [
+          {
+            "start": 0,
+            "end": 4,
+            "value": "Bing",
+            "entity": "student_name"
+          }
+        ],
+        "text": "Bing is my last name"
+      },
+      {
+        "intent": "intro",
+        "entities": [
+          {
+            "start": 15,
+            "end": 23,
+            "value": "Angelina",
+            "entity": "student_name"
+          }
+        ],
+        "text": "Few call me as Angelina"
+      },
+      {
+        "intent": "intro",
+        "entities": [
+          {
+            "start": 13,
+            "end": 18,
+            "value": "Julia",
+            "entity": "student_name"
+          }
+        ],
+        "text": "Some call me Julia"
+      },
+      {
+        "intent": "intro",
+        "entities": [
+          {
+            "start": 13,
+            "end": 17,
+            "value": "Chab",
+            "entity": "student_name"
+          }
+        ],
+        "text": "Some call me Chab"
+      },
+      {
+        "intent": "intro",
+        "entities": [
+          {
+            "start": 18,
+            "end": 23,
+            "value": "Laura",
+            "entity": "student_name"
+          }
+        ],
+        "text": "Everyone calls me Laura"
+      },
+      {
+        "intent": "intro",
+        "entities": [
+          {
+            "start": 18,
+            "end": 23,
+            "value": "Yaser",
+            "entity": "student_name"
+          }
+        ],
+        "text": "Everyone calls me Yaser"
+      },
+      {
+        "intent": "intro",
+        "entities": [
+          {
+            "start": 5,
+            "end": 11,
+            "value": "Ganesh",
+            "entity": "student_name"
+          }
+        ],
+        "text": "I am Ganesh"
+      },
+      {
+        "intent": "intro",
+        "entities": [
+          {
+            "start": 5,
+            "end": 10,
+            "value": "Yaser",
+            "entity": "student_name"
+          }
+        ],
+        "text": "I am Yaser"
+      },
+      {
+        "intent": "intro",
+        "entities": [
+          {
+            "start": 11,
+            "end": 15,
+            "value": "Mike",
+            "entity": "student_name"
+          }
+        ],
+        "text": "My name is Mike"
+      },
+      {
+        "intent": "intro",
+        "entities": [
+          {
+            "start": 13,
+            "end": 19,
+            "value": "Monika",
+            "entity": "student_name"
+          }
+        ],
+        "text": "just call me Monika"
+      },
+      {
+        "intent": "intro",
+        "entities": [
+          {
+            "start": 9,
+            "end": 12,
+            "value": "Dan",
+            "entity": "student_name"
+          }
+        ],
+        "text": "Few call Dan"
+      },
+      {
+        "intent": "intro",
+        "entities": [
+          {
+            "start": 23,
+            "end": 28,
+            "value": "Suraj",
+            "entity": "student_name"
+          }
+        ],
+        "text": "You can always call me Suraj"
+      },
+      {
+        "intent": "intro",
+        "entities": [
+          {
+            "start": 18,
+            "end": 24,
+            "value": "Andrew",
+            "entity": "student_name"
+          }
+        ],
+        "text": "Some will call me Andrew"
+      },
+      {
+        "intent": "intro",
+        "entities": [
+          {
+            "start": 11,
+            "end": 15,
+            "value": "Ajay",
+            "entity": "student_name"
+          }
+        ],
+        "text": "My name is Ajay"
+      },
+      {
+        "intent": "intro",
+        "entities": [
+          {
+            "start": 7,
+            "end": 11,
+            "value": "Ding",
+            "entity": "student_name"
+          }
+        ],
+        "text": "I call Ding"
+      },
+      {
+        "intent": "intro",
+        "entities": [
+          {
+            "start": 4,
+            "end": 10,
+            "value": "Partia",
+            "entity": "student_name"
+          }
+        ],
+        "text": "I'm Partia"
+      },
+      {
+        "intent": "intro",
+        "entities": [
+          {
+            "start": 15,
+            "end": 18,
+            "value": "Leo",
+            "entity": "student_name"
+          }
+        ],
+        "text": "Please call me Leo"
+      },
+      {
+        "intent": "intro",
+        "entities": [
+          {
+            "start": 8,
+            "end": 12,
+            "value": "Pari",
+            "entity": "student_name"
+          }
+        ],
+        "text": "Name is Pari"
+      },
+      {
+        "intent": "intro",
+        "entities": [
+          {
+            "start": 5,
+            "end": 11,
+            "value": "Sanjay",
+            "entity": "student_name"
+          }
+        ],
+        "text": "Name Sanjay"
+      },
+      {
+        "intent": "intro",
+        "entities": [
+          {
+            "start": 5,
+            "end": 8,
+            "value": "Ali",
+            "entity": "student_name"
+          }
+        ],
+        "text": "Name Ali"
+      },
+      {
+        "intent": "intro",
+        "entities": [
+          {
+            "start": 8,
+            "end": 13,
+            "value": "Yaser",
+            "entity": "student_name"
+          }
+        ],
+        "text": "This is Yaser"
+      },
+      {
+        "intent": "course",
+        "entities": [
+          {
+            "start": 0,
+            "end": 7,
+            "value": "EduTech",
+            "entity": "course_name"
+          }
+        ],
+        "text": "EduTech"
+      },
+      {
+        "intent": "course",
+        "entities": [
+          {
+            "start": 0,
+            "end": 2,
+            "value": "ML",
+            "entity": "course_name"
+          }
+        ],
+        "text": "ML"
+      },
+      {
+        "intent": "course",
+        "entities": [
+          {
+            "start": 0,
+            "end": 4,
+            "value": "KBAI",
+            "entity": "course_name"
+          }
+        ],
+        "text": "KBAI"
+      },
+      {
+        "intent": "course",
+        "entities": [
+          {
+            "start": 0,
+            "end": 22,
+            "value": "Educational Technology",
+            "entity": "course_name"
+          }
+        ],
+        "text": "Educational Technology"
+      },
+      {
+        "intent": "course",
+        "entities": [
+          {
+            "start": 0,
+            "end": 15,
+            "value": "Computer Vision",
+            "entity": "course_name"
+          }
+        ],
+        "text": "Computer Vision"
+      },
+      {
+        "intent": "course",
+        "entities": [
+          {
+            "start": 0,
+            "end": 2,
+            "value": "CV",
+            "entity": "course_name"
+          }
+        ],
+        "text": "CV"
+      },
+      {
+        "intent": "course",
+        "entities": [
+          {
+            "start": 0,
+            "end": 25,
+            "value": "Computational Photography",
+            "entity": "course_name"
+          }
+        ],
+        "text": "Computational Photography"
+      },
+      {
+        "intent": "course",
+        "entities": [
+          {
+            "start": 0,
+            "end": 4,
+            "value": "6475",
+            "entity": "course_name"
+          }
+        ],
+        "text": "6475"
+      },
+      {
+        "intent": "course",
+        "entities": [
+          {
+            "start": 0,
+            "end": 7,
+            "value": "CS-6475",
+            "entity": "course_name"
+          }
+        ],
+        "text": "CS-6475"
+      },
+      {
+        "intent": "course",
+        "entities": [
+          {
+            "start": 0,
+            "end": 17,
+            "value": "Computer Networks",
+            "entity": "course_name"
+          }
+        ],
+        "text": "Computer Networks"
+      },
+      {
+        "intent": "course",
+        "entities": [
+          {
+            "start": 0,
+            "end": 2,
+            "value": "CN",
+            "entity": "course_name"
+          }
+        ],
+        "text": "CN"
+      },
+      {
+        "intent": "course",
+        "entities": [
+          {
+            "start": 0,
+            "end": 4,
+            "value": "6250",
+            "entity": "course_name"
+          }
+        ],
+        "text": "6250"
+      },
+      {
+        "intent": "course",
+        "entities": [
+          {
+            "start": 0,
+            "end": 7,
+            "value": "CS-6250",
+            "entity": "course_name"
+          }
+        ],
+        "text": "CS-6250"
+      },
+      {
+        "intent": "course",
+        "entities": [
+          {
+            "start": 0,
+            "end": 26,
+            "value": "Human Computer Interaction",
+            "entity": "course_name"
+          }
+        ],
+        "text": "Human Computer Interaction"
+      },
+      {
+        "intent": "course",
+        "entities": [
+          {
+            "start": 0,
+            "end": 28,
+            "value": "Software Development Process",
+            "entity": "course_name"
+          }
+        ],
+        "text": "Software Development Process"
+      },
+      {
+        "intent": "course",
+        "entities": [
+          {
+            "start": 0,
+            "end": 4,
+            "value": "6300",
+            "entity": "course_name"
+          }
+        ],
+        "text": "6300"
+      },
+      {
+        "intent": "course",
+        "entities": [
+          {
+            "start": 0,
+            "end": 7,
+            "value": "CS-6300",
+            "entity": "course_name"
+          }
+        ],
+        "text": "CS-6300"
+      },
+      {
+        "intent": "course",
+        "entities": [
+          {
+            "start": 0,
+            "end": 3,
+            "value": "SDP",
+            "entity": "course_name"
+          }
+        ],
+        "text": "SDP"
+      },
+      {
+        "intent": "course",
+        "entities": [
+          {
+            "start": 0,
+            "end": 3,
+            "value": "HCI",
+            "entity": "course_name"
+          }
+        ],
+        "text": "HCI"
+      },
+      {
+        "intent": "course",
+        "entities": [
+          {
+            "start": 0,
+            "end": 20,
+            "value": "Information Security",
+            "entity": "course_name"
+          }
+        ],
+        "text": "Information Security"
+      },
+      {
+        "intent": "course",
+        "entities": [
+          {
+            "start": 0,
+            "end": 18,
+            "value": "Data Visualization",
+            "entity": "course_name"
+          }
+        ],
+        "text": "Data Visualization"
+      },
+      {
+        "intent": "course",
+        "entities": [
+          {
+            "start": 0,
+            "end": 22,
+            "value": "Educational Technology",
+            "entity": "course_name"
+          }
+        ],
+        "text": "Educational Technology"
+      },
+      {
+        "intent": "course",
+        "entities": [
+          {
+            "start": 0,
+            "end": 15,
+            "value": "Computer Vision",
+            "entity": "course_name"
+          }
+        ],
+        "text": "Computer Vision"
+      },
+      {
+        "intent": "course",
+        "entities": [
+          {
+            "start": 0,
+            "end": 2,
+            "value": "CV",
+            "entity": "course_name"
+          }
+        ],
+        "text": "CV"
+      },
+      {
+        "intent": "course",
+        "entities": [
+          {
+            "start": 0,
+            "end": 25,
+            "value": "Computational Photography",
+            "entity": "course_name"
+          }
+        ],
+        "text": "Computational Photography"
+      },
+      {
+        "intent": "course",
+        "entities": [
+          {
+            "start": 0,
+            "end": 4,
+            "value": "6475",
+            "entity": "course_name"
+          }
+        ],
+        "text": "6475"
+      },
+      {
+        "intent": "course",
+        "entities": [
+          {
+            "start": 0,
+            "end": 7,
+            "value": "CS-6475",
+            "entity": "course_name"
+          }
+        ],
+        "text": "CS-6475"
+      },
+      {
+        "intent": "course",
+        "entities": [
+          {
+            "start": 0,
+            "end": 17,
+            "value": "Computer Networks",
+            "entity": "course_name"
+          }
+        ],
+        "text": "Computer Networks"
+      },
+      {
+        "intent": "course",
+        "entities": [
+          {
+            "start": 0,
+            "end": 2,
+            "value": "CN",
+            "entity": "course_name"
+          }
+        ],
+        "text": "CN"
+      },
+      {
+        "intent": "course",
+        "entities": [
+          {
+            "start": 0,
+            "end": 4,
+            "value": "6250",
+            "entity": "course_name"
+          }
+        ],
+        "text": "6250"
+      },
+      {
+        "intent": "course",
+        "entities": [
+          {
+            "start": 0,
+            "end": 7,
+            "value": "CS-6250",
+            "entity": "course_name"
+          }
+        ],
+        "text": "CS-6250"
+      },
+      {
+        "intent": "course",
+        "entities": [
+          {
+            "start": 0,
+            "end": 26,
+            "value": "Human Computer Interaction",
+            "entity": "course_name"
+          }
+        ],
+        "text": "Human Computer Interaction"
+      },
+      {
+        "intent": "course",
+        "entities": [
+          {
+            "start": 0,
+            "end": 28,
+            "value": "Software Development Process",
+            "entity": "course_name"
+          }
+        ],
+        "text": "Software Development Process"
+      },
+      {
+        "intent": "course",
+        "entities": [
+          {
+            "start": 0,
+            "end": 4,
+            "value": "6300",
+            "entity": "course_name"
+          }
+        ],
+        "text": "6300"
+      },
+      {
+        "intent": "course",
+        "entities": [
+          {
+            "start": 0,
+            "end": 7,
+            "value": "CS-6300",
+            "entity": "course_name"
+          }
+        ],
+        "text": "CS-6300"
+      },
+      {
+        "intent": "course",
+        "entities": [
+          {
+            "start": 0,
+            "end": 3,
+            "value": "SDP",
+            "entity": "course_name"
+          }
+        ],
+        "text": "SDP"
+      },
+      {
+        "intent": "course",
+        "entities": [
+          {
+            "start": 0,
+            "end": 3,
+            "value": "HCI",
+            "entity": "course_name"
+          }
+        ],
+        "text": "HCI"
+      },
+      {
+        "intent": "course",
+        "entities": [
+          {
+            "start": 0,
+            "end": 20,
+            "value": "Information Security",
+            "entity": "course_name"
+          }
+        ],
+        "text": "Information Security"
+      },
+      {
+        "intent": "course",
+        "entities": [
+          {
+            "start": 0,
+            "end": 18,
+            "value": "Data Visualization",
+            "entity": "course_name"
+          }
+        ],
+        "text": "Data Visualization"
+      },
+      {
+        "intent": "course",
+        "entities": [
+          {
+            "start": 0,
+            "end": 7,
+            "value": "CS-6250",
+            "entity": "course_name"
+          }
+        ],
+        "text": "CS-6250"
+      },
+      {
+        "intent": "course",
+        "entities": [
+          {
+            "start": 0,
+            "end": 26,
+            "value": "Human Computer Interaction",
+            "entity": "course_name"
+          }
+        ],
+        "text": "Human Computer Interaction"
+      },
+      {
+        "intent": "course",
+        "entities": [
+          {
+            "start": 0,
+            "end": 28,
+            "value": "Software Development Process",
+            "entity": "course_name"
+          }
+        ],
+        "text": "Software Development Process"
+      },
+      {
+        "intent": "course",
+        "entities": [
+          {
+            "start": 0,
+            "end": 4,
+            "value": "6300",
+            "entity": "course_name"
+          }
+        ],
+        "text": "6300"
+      },
+      {
+        "intent": "course",
+        "entities": [
+          {
+            "start": 0,
+            "end": 7,
+            "value": "CS-6300",
+            "entity": "course_name"
+          }
+        ],
+        "text": "CS-6300"
+      },
+      {
+        "intent": "course",
+        "entities": [
+          {
+            "start": 0,
+            "end": 20,
+            "value": "Information Security",
+            "entity": "course_name"
+          }
+        ],
+        "text": "Information Security was my last course"
+      },
+      {
+        "intent": "course",
+        "entities": [
+          {
+            "start": 0,
+            "end": 18,
+            "value": "Data Visualization",
+            "entity": "course_name"
+          }
+        ],
+        "text": "Data Visualization was my last course"
+      },
+      {
+        "intent": "course",
+        "entities": [
+          {
+            "start": 0,
+            "end": 3,
+            "value": "HCI",
+            "entity": "course_name"
+          }
+        ],
+        "text": "HCI"
+      },
+      {
+        "intent": "course",
+        "entities": [
+          {
+            "start": 16,
+            "end": 23,
+            "value": "EduTech",
+            "entity": "course_name"
+          }
+        ],
+        "text": "Last course was EduTech"
+      },
+      {
+        "intent": "course",
+        "entities": [
+          {
+            "start": 16,
+            "end": 38,
+            "value": "Educational Technology",
+            "entity": "course_name"
+          }
+        ],
+        "text": "Last course was Educational Technology"
+      },
+      {
+        "intent": "course",
+        "entities": [
+          {
+            "start": 16,
+            "end": 31,
+            "value": "Computer Vision",
+            "entity": "course_name"
+          }
+        ],
+        "text": "Last course was Computer Vision"
+      },
+      {
+        "intent": "course",
+        "entities": [
+          {
+            "start": 16,
+            "end": 18,
+            "value": "CV",
+            "entity": "course_name"
+          }
+        ],
+        "text": "Last course was CV"
+      },
+      {
+        "intent": "course",
+        "entities": [
+          {
+            "start": 16,
+            "end": 18,
+            "value": "CN",
+            "entity": "course_name"
+          }
+        ],
+        "text": "Last course was CN"
+      },
+      {
+        "intent": "course",
+        "entities": [
+          {
+            "start": 16,
+            "end": 20,
+            "value": "6250",
+            "entity": "course_name"
+          }
+        ],
+        "text": "Last course was 6250"
+      },
+      {
+        "intent": "course",
+        "entities": [
+          {
+            "start": 16,
+            "end": 36,
+            "value": "Information Security",
+            "entity": "course_name"
+          }
+        ],
+        "text": "Last course was Information Security"
+      },
+      {
+        "intent": "course",
+        "entities": [
+          {
+            "start": 16,
+            "end": 18,
+            "value": "IS",
+            "entity": "course_name"
+          }
+        ],
+        "text": "Last course was IS"
+      },
+      {
+        "intent": "course",
+        "entities": [
+          {
+            "start": 16,
+            "end": 34,
+            "value": "Data Visualization",
+            "entity": "course_name"
+          }
+        ],
+        "text": "Last course was Data Visualization"
+      },
+      {
+        "intent": "course",
+        "entities": [
+          {
+            "start": 16,
+            "end": 19,
+            "value": "HCI",
+            "entity": "course_name"
+          }
+        ],
+        "text": "Last course was HCI"
+      },
+      {
+        "intent": "course",
+        "entities": [
+          {
+            "start": 16,
+            "end": 23,
+            "value": "CS-6300",
+            "entity": "course_name"
+          }
+        ],
+        "text": "Last course was CS-6300"
+      },
+      {
+        "intent": "course",
+        "entities": [
+          {
+            "start": 16,
+            "end": 20,
+            "value": "6250",
+            "entity": "course_name"
+          }
+        ],
+        "text": "Last course was 6250"
+      },
+      {
+        "intent": "course",
+        "entities": [
+          {
+            "start": 7,
+            "end": 11,
+            "value": "6264",
+            "entity": "course_name"
+          }
+        ],
+        "text": "It was 6264"
+      },
+      {
+        "intent": "course",
+        "entities": [
+          {
+            "start": 7,
+            "end": 32,
+            "value": "Computational Photography",
+            "entity": "course_name"
+          }
+        ],
+        "text": "It was Computational Photography"
+      },
+      {
+        "intent": "course",
+        "entities": [
+          {
+            "start": 7,
+            "end": 11,
+            "value": "6475",
+            "entity": "course_name"
+          }
+        ],
+        "text": "It was 6475"
+      },
+      {
+        "intent": "course",
+        "entities": [
+          {
+            "start": 7,
+            "end": 24,
+            "value": "Computer Networks",
+            "entity": "course_name"
+          }
+        ],
+        "text": "It was Computer Networks"
+      },
+      {
+        "intent": "course",
+        "entities": [
+          {
+            "start": 7,
+            "end": 10,
+            "value": "SDP",
+            "entity": "course_name"
+          }
+        ],
+        "text": "It was SDP"
+      },
+      {
+        "intent": "course",
+        "entities": [
+          {
+            "start": 7,
+            "end": 27,
+            "value": "Information Security",
+            "entity": "course_name"
+          }
+        ],
+        "text": "It was Information Security"
+      },
+      {
+        "intent": "course",
+        "entities": [
+          {
+            "start": 7,
+            "end": 9,
+            "value": "IS",
+            "entity": "course_name"
+          }
+        ],
+        "text": "It was IS"
+      },
+      {
+        "intent": "course",
+        "entities": [
+          {
+            "start": 7,
+            "end": 10,
+            "value": "HCI",
+            "entity": "course_name"
+          }
+        ],
+        "text": "It was HCI"
+      },
+      {
+        "intent": "course",
+        "entities": [
+          {
+            "start": 7,
+            "end": 11,
+            "value": "6300",
+            "entity": "course_name"
+          }
+        ],
+        "text": "It was 6300"
+      },
+      {
+        "intent": "course",
+        "entities": [
+          {
+            "start": 7,
+            "end": 10,
+            "value": "SDP",
+            "entity": "course_name"
+          }
+        ],
+        "text": "It was SDP"
+      },
+      {
+        "intent": "course",
+        "entities": [
+          {
+            "start": 7,
+            "end": 22,
+            "value": "Computer Vision",
+            "entity": "course_name"
+          }
+        ],
+        "text": "I took Computer Vision last semester."
+      },
+      {
+        "intent": "course",
+        "entities": [
+          {
+            "start": 7,
+            "end": 14,
+            "value": "CS-6475",
+            "entity": "course_name"
+          }
+        ],
+        "text": "I took CS-6475"
+      },
+      {
+        "intent": "course",
+        "entities": [
+          {
+            "start": 7,
+            "end": 10,
+            "value": "SDP",
+            "entity": "course_name"
+          }
+        ],
+        "text": "I took SDP last semester."
+      },
+      {
+        "intent": "course",
+        "entities": [
+          {
+            "start": 7,
+            "end": 11,
+            "value": "6300",
+            "entity": "course_name"
+          }
+        ],
+        "text": "I took 6300"
+      },
+      {
+        "intent": "course",
+        "entities": [
+          {
+            "start": 7,
+            "end": 9,
+            "value": "IS",
+            "entity": "course_name"
+          }
+        ],
+        "text": "I took IS last semester."
+      },
+      {
+        "intent": "course",
+        "entities": [
+          {
+            "start": 7,
+            "end": 27,
+            "value": "Information Security",
+            "entity": "course_name"
+          }
+        ],
+        "text": "I took Information Security"
+      },
+      {
+        "intent": "course",
+        "entities": [
+          {
+            "start": 7,
+            "end": 29,
+            "value": "Educational Technology",
+            "entity": "course_name"
+          }
+        ],
+        "text": "I took Educational Technology last semester."
+      },
+      {
+        "intent": "course",
+        "entities": [
+          {
+            "start": 7,
+            "end": 13,
+            "value": "EdTech",
+            "entity": "course_name"
+          }
+        ],
+        "text": "I took EdTech"
+      },
+      {
+        "intent": "course",
+        "entities": [
+          {
+            "start": 7,
+            "end": 23,
+            "value": "Machine Learning",
+            "entity": "course_name"
+          }
+        ],
+        "text": "I took Machine Learning last semester."
+      },
+      {
+        "intent": "course",
+        "entities": [
+          {
+            "start": 7,
+            "end": 9,
+            "value": "ML",
+            "entity": "course_name"
+          }
+        ],
+        "text": "I took ML"
+      },
+      {
+        "intent": "course",
+        "entities": [
+          {
+            "start": 21,
+            "end": 41,
+            "value": "Information Security",
+            "entity": "course_name"
+          }
+        ],
+        "text": "Last semester I took Information Security"
+      },
+      {
+        "intent": "course",
+        "entities": [
+          {
+            "start": 21,
+            "end": 41,
+            "value": "Information Security",
+            "entity": "course_name"
+          }
+        ],
+        "text": "Last semester I took Information Security"
+      },
+      {
+        "intent": "course",
+        "entities": [
+          {
+            "start": 21,
+            "end": 24,
+            "value": "SDP",
+            "entity": "course_name"
+          }
+        ],
+        "text": "Last semester I took SDP"
+      },
+      {
+        "intent": "course",
+        "entities": [
+          {
+            "start": 21,
+            "end": 25,
+            "value": "6300",
+            "entity": "course_name"
+          }
+        ],
+        "text": "Last semester I took 6300"
+      },
+      {
+        "intent": "course",
+        "entities": [
+          {
+            "start": 21,
+            "end": 23,
+            "value": "IS",
+            "entity": "course_name"
+          }
+        ],
+        "text": "Last semester I took IS"
+      },
+      {
+        "intent": "course",
+        "entities": [
+          {
+            "start": 21,
+            "end": 37,
+            "value": "Machine Learning",
+            "entity": "course_name"
+          }
+        ],
+        "text": "Last semester I took Machine Learning"
+      },
+      {
+        "intent": "course",
+        "entities": [
+          {
+            "start": 21,
+            "end": 27,
+            "value": "EdTech",
+            "entity": "course_name"
+          }
+        ],
+        "text": "Last semester I took EdTech"
+      },
+      {
+        "intent": "course",
+        "entities": [
+          {
+            "start": 21,
+            "end": 23,
+            "value": "ML",
+            "entity": "course_name"
+          }
+        ],
+        "text": "Last semester I took ML"
+      },
+      {
+        "intent": "difficulty",
+        "entities": [
+          {
+            "start": 0,
+            "end": 87,
+            "value": "If you want a B, you can probably get away with 5-10 hours worth of work in this class.",
+            "entity": "difficulty_text"
+          }
+        ],
+        "text": "If you want a B, you can probably get away with 5-10 hours worth of work in this class."
+      },
+      {
+        "intent": "difficulty",
+        "entities": [
+          {
+            "start": 0,
+            "end": 48,
+            "value": "Relatively easy class with some prior knowledge.",
+            "entity": "difficulty_text"
+          }
+        ],
+        "text": "Relatively easy class with some prior knowledge."
+      },
+      {
+        "intent": "difficulty",
+        "entities": [
+          {
+            "start": 0,
+            "end": 58,
+            "value": "It is not too hard but you have to read a lot of material.",
+            "entity": "difficulty_text"
+          }
+        ],
+        "text": "It is not too hard but you have to read a lot of material."
+      },
+      {
+        "intent": "difficulty",
+        "entities": [
+          {
+            "start": 0,
+            "end": 28,
+            "value": "Easy but a super good class.",
+            "entity": "difficulty_text"
+          }
+        ],
+        "text": "Easy but a super good class."
+      },
+      {
+        "intent": "difficulty",
+        "entities": [
+          {
+            "start": 0,
+            "end": 26,
+            "value": "Not very difficult course.",
+            "entity": "difficulty_text"
+          }
+        ],
+        "text": "Not very difficult course."
+      },
+      {
+        "intent": "difficulty",
+        "entities": [
+          {
+            "start": 0,
+            "end": 42,
+            "value": "Very easy, with some effort you can have A",
+            "entity": "difficulty_text"
+          }
+        ],
+        "text": "Very easy, with some effort you can have A"
+      },
+      {
+        "intent": "difficulty",
+        "entities": [
+          {
+            "start": 0,
+            "end": 75,
+            "value": "I can say 2-3 hours of study a day is enough, relatively hard course though",
+            "entity": "difficulty_text"
+          }
+        ],
+        "text": "I can say 2-3 hours of study a day is enough, relatively hard course though"
+      },
+      {
+        "intent": "difficulty",
+        "entities": [
+          {
+            "start": 0,
+            "end": 25,
+            "value": "This course is very hard.",
+            "entity": "difficulty_text"
+          }
+        ],
+        "text": "This course is very hard."
+      },
+      {
+        "intent": "difficulty",
+        "entities": [
+          {
+            "start": 0,
+            "end": 87,
+            "value": "Complex course, I didn't like it at all, long hours of study is needed just to score B.",
+            "entity": "difficulty_text"
+          }
+        ],
+        "text": "Complex course, I didn't like it at all, long hours of study is needed just to score B."
+      },
+      {
+        "intent": "difficulty",
+        "entities": [
+          {
+            "start": 0,
+            "end": 18,
+            "value": "Not very difficult",
+            "entity": "difficulty_text"
+          }
+        ],
+        "text": "Not very difficult"
+      },
+      {
+        "intent": "difficulty",
+        "entities": [
+          {
+            "start": 0,
+            "end": 14,
+            "value": "Very difficult",
+            "entity": "difficulty_text"
+          }
+        ],
+        "text": "Very difficult"
+      },
+      {
+        "intent": "difficulty",
+        "entities": [
+          {
+            "start": 0,
+            "end": 34,
+            "value": "Not too difficult neither too easy",
+            "entity": "difficulty_text"
+          }
+        ],
+        "text": "Not too difficult neither too easy"
+      },
+      {
+        "intent": "difficulty",
+        "entities": [
+          {
+            "start": 0,
+            "end": 4,
+            "value": "Easy",
+            "entity": "difficulty_text"
+          }
+        ],
+        "text": "Easy"
+      },
+      {
+        "intent": "difficulty",
+        "entities": [
+          {
+            "start": 0,
+            "end": 9,
+            "value": "Difficult",
+            "entity": "difficulty_text"
+          }
+        ],
+        "text": "Difficult"
+      },
+      {
+        "intent": "difficulty",
+        "entities": [
+          {
+            "start": 0,
+            "end": 9,
+            "value": "Very easy",
+            "entity": "difficulty_text"
+          }
+        ],
+        "text": "Very easy"
+      },
+      {
+        "intent": "difficulty",
+        "entities": [
+          {
+            "start": 0,
+            "end": 8,
+            "value": "Too easy",
+            "entity": "difficulty_text"
+          }
+        ],
+        "text": "Too easy"
+      },
+      {
+        "intent": "difficulty",
+        "entities": [
+          {
+            "start": 0,
+            "end": 13,
+            "value": "Too difficult",
+            "entity": "difficulty_text"
+          }
+        ],
+        "text": "Too difficult"
+      },
+      {
+        "intent": "difficulty",
+        "entities": [
+          {
+            "start": 0,
+            "end": 51,
+            "value": "Can be difficult if you don't put the needed effort",
+            "entity": "difficulty_text"
+          }
+        ],
+        "text": "Can be difficult if you don't put the needed effort"
+      },
+      {
+        "intent": "difficulty",
+        "entities": [
+          {
+            "start": 0,
+            "end": 22,
+            "value": "It was very difficult!",
+            "entity": "difficulty_text"
+          }
+        ],
+        "text": "It was very difficult!"
+      },
+      {
+        "intent": "difficulty",
+        "entities": [
+          {
+            "start": 0,
+            "end": 21,
+            "value": "It was very difficult",
+            "entity": "difficulty_text"
+          }
+        ],
+        "text": "It was very difficult"
+      },
+      {
+        "intent": "difficulty",
+        "entities": [
+          {
+            "start": 0,
+            "end": 28,
+            "value": "It was very difficult indeed",
+            "entity": "difficulty_text"
+          }
+        ],
+        "text": "It was very difficult indeed"
+      },
+      {
+        "intent": "difficulty",
+        "entities": [
+          {
+            "start": 0,
+            "end": 29,
+            "value": "It was very difficult indeed!",
+            "entity": "difficulty_text"
+          }
+        ],
+        "text": "It was very difficult indeed!"
+      },
+      {
+        "intent": "difficulty",
+        "entities": [
+          {
+            "start": 0,
+            "end": 25,
+            "value": "It was not very difficult",
+            "entity": "difficulty_text"
+          }
+        ],
+        "text": "It was not very difficult"
+      },
+      {
+        "intent": "difficulty",
+        "entities": [
+          {
+            "start": 0,
+            "end": 25,
+            "value": "It was not very difficult",
+            "entity": "difficulty_text"
+          }
+        ],
+        "text": "It was not very difficult"
+      },
+      {
+        "intent": "difficulty",
+        "entities": [
+          {
+            "start": 0,
+            "end": 16,
+            "value": "It was difficult",
+            "entity": "difficulty_text"
+          }
+        ],
+        "text": "It was difficult"
+      },
+      {
+        "intent": "difficulty",
+        "entities": [
+          {
+            "start": 0,
+            "end": 14,
+            "value": "just difficult",
+            "entity": "difficulty_text"
+          }
+        ],
+        "text": "just difficult"
+      },
+      {
+        "intent": "assignments",
+        "entities": [
+          {
+            "start": 0,
+            "end": 86,
+            "value": "First few projects and assignments are the most difficult and the rest is much easier.",
+            "entity": "assignments_text"
+          }
+        ],
+        "text": "First few projects and assignments are the most difficult and the rest is much easier."
+      },
+      {
+        "intent": "assignments",
+        "entities": [
+          {
+            "start": 0,
+            "end": 103,
+            "value": "The assignment is highly related to the video and well organized. Description of the project are clear.",
+            "entity": "assignments_text"
+          }
+        ],
+        "text": "The assignment is highly related to the video and well organized. Description of the project are clear."
+      },
+      {
+        "intent": "assignments",
+        "entities": [
+          {
+            "start": 0,
+            "end": 36,
+            "value": "The assignment instruction is clear.",
+            "entity": "assignments_text"
+          }
+        ],
+        "text": "The assignment instruction is clear."
+      },
+      {
+        "intent": "assignments",
+        "entities": [
+          {
+            "start": 0,
+            "end": 48,
+            "value": "Assignments help reinforce the information well.",
+            "entity": "assignments_text"
+          }
+        ],
+        "text": "Assignments help reinforce the information well."
+      },
+      {
+        "intent": "assignments",
+        "entities": [
+          {
+            "start": 0,
+            "end": 50,
+            "value": "Good python exercise. Easy and less time consuming",
+            "entity": "assignments_text"
+          }
+        ],
+        "text": "Good python exercise. Easy and less time consuming"
+      },
+      {
+        "intent": "assignments",
+        "entities": [
+          {
+            "start": 0,
+            "end": 149,
+            "value": "Assignments require reading abundant walls of text to avoid missing grading details and grades are deducted for things like upload size being too big",
+            "entity": "assignments_text"
+          }
+        ],
+        "text": "Assignments require reading abundant walls of text to avoid missing grading details and grades are deducted for things like upload size being too big"
+      },
+      {
+        "intent": "assignments",
+        "entities": [
+          {
+            "start": 0,
+            "end": 26,
+            "value": "Good number of assignment.",
+            "entity": "assignments_text"
+          }
+        ],
+        "text": "Good number of assignment."
+      },
+      {
+        "intent": "assignments",
+        "entities": [
+          {
+            "start": 0,
+            "end": 30,
+            "value": "Assignment in general are hard",
+            "entity": "assignments_text"
+          }
+        ],
+        "text": "Assignment in general are hard"
+      },
+      {
+        "intent": "assignments",
+        "entities": [
+          {
+            "start": 0,
+            "end": 35,
+            "value": "Assignments require a lot of effort",
+            "entity": "assignments_text"
+          }
+        ],
+        "text": "Assignments require a lot of effort"
+      },
+      {
+        "intent": "assignments",
+        "entities": [
+          {
+            "start": 0,
+            "end": 55,
+            "value": "Well organized, and paced number of projects and papers",
+            "entity": "assignments_text"
+          }
+        ],
+        "text": "Well organized, and paced number of projects and papers"
+      },
+      {
+        "intent": "assignments",
+        "entities": [
+          {
+            "start": 0,
+            "end": 32,
+            "value": "You have to read a lot of papers",
+            "entity": "assignments_text"
+          }
+        ],
+        "text": "You have to read a lot of papers"
+      },
+      {
+        "intent": "assignments",
+        "entities": [
+          {
+            "start": 0,
+            "end": 70,
+            "value": "One big project and 6 other small assignments, a lot of papers to read",
+            "entity": "assignments_text"
+          }
+        ],
+        "text": "One big project and 6 other small assignments, a lot of papers to read"
+      },
+      {
+        "intent": "assignments",
+        "entities": [
+          {
+            "start": 0,
+            "end": 21,
+            "value": "Assignments were fine",
+            "entity": "assignments_text"
+          }
+        ],
+        "text": "Assignments were fine"
+      },
+      {
+        "intent": "assignments",
+        "entities": [
+          {
+            "start": 0,
+            "end": 48,
+            "value": "Assignments were long and requires a lot of work",
+            "entity": "assignments_text"
+          }
+        ],
+        "text": "Assignments were long and requires a lot of work"
+      },
+      {
+        "intent": "assignments",
+        "entities": [
+          {
+            "start": 0,
+            "end": 18,
+            "value": "Assignments are ok",
+            "entity": "assignments_text"
+          }
+        ],
+        "text": "Assignments are ok"
+      },
+      {
+        "intent": "assignments",
+        "entities": [
+          {
+            "start": 0,
+            "end": 22,
+            "value": "Assignment are alright",
+            "entity": "assignments_text"
+          }
+        ],
+        "text": "Assignment are alright"
+      },
+      {
+        "intent": "assignments",
+        "entities": [
+          {
+            "start": 0,
+            "end": 27,
+            "value": "Assignments are not too bad",
+            "entity": "assignments_text"
+          }
+        ],
+        "text": "Assignments are not too bad"
+      },
+      {
+        "intent": "assignments",
+        "entities": [
+          {
+            "start": 0,
+            "end": 14,
+            "value": "They were fine",
+            "entity": "assignments_text"
+          }
+        ],
+        "text": "They were fine"
+      },
+      {
+        "intent": "assignments",
+        "entities": [
+          {
+            "start": 0,
+            "end": 20,
+            "value": "They long but doable",
+            "entity": "assignments_text"
+          }
+        ],
+        "text": "They long but doable"
+      },
+      {
+        "intent": "assignments",
+        "entities": [
+          {
+            "start": 0,
+            "end": 19,
+            "value": "They very difficult",
+            "entity": "assignments_text"
+          }
+        ],
+        "text": "They very difficult"
+      },
+      {
+        "intent": "assignments",
+        "entities": [
+          {
+            "start": 0,
+            "end": 12,
+            "value": "They were ok",
+            "entity": "assignments_text"
+          }
+        ],
+        "text": "They were ok"
+      },
+      {
+        "intent": "assignments",
+        "entities": [
+          {
+            "start": 0,
+            "end": 28,
+            "value": "They were tedious and boring",
+            "entity": "assignments_text"
+          }
+        ],
+        "text": "They were tedious and boring"
+      },
+      {
+        "intent": "assignments",
+        "entities": [
+          {
+            "start": 0,
+            "end": 26,
+            "value": "They were very complicated",
+            "entity": "assignments_text"
+          }
+        ],
+        "text": "They were very complicated"
+      },
+      {
+        "intent": "mentors",
+        "entities": [
+          {
+            "start": 0,
+            "end": 113,
+            "value": "Head TA Ronnie Howard is the absolute worst TA or instructor I've ever experienced. He just doesn't give a fudge.",
+            "entity": "mentors_text"
+          }
+        ],
+        "text": "Head TA Ronnie Howard is the absolute worst TA or instructor I've ever experienced. He just doesn't give a fudge."
+      },
+      {
+        "intent": "mentors",
+        "entities": [
+          {
+            "start": 0,
+            "end": 73,
+            "value": "Dr. Joyner and team have been good at returning grades in a timely manner",
+            "entity": "mentors_text"
+          }
+        ],
+        "text": "Dr. Joyner and team have been good at returning grades in a timely manner"
+      },
+      {
+        "intent": "mentors",
+        "entities": [
+          {
+            "start": 0,
+            "end": 31,
+            "value": "Joyner is a fantastic professor",
+            "entity": "mentors_text"
+          }
+        ],
+        "text": "Joyner is a fantastic professor"
+      },
+      {
+        "intent": "mentors",
+        "entities": [
+          {
+            "start": 0,
+            "end": 85,
+            "value": "Head TA Ronnie Howard is the absolute worst TA or instructor, the rest of TA's are ok",
+            "entity": "mentors_text"
+          }
+        ],
+        "text": "Head TA Ronnie Howard is the absolute worst TA or instructor, the rest of TA's are ok"
+      },
+      {
+        "intent": "mentors",
+        "entities": [
+          {
+            "start": 0,
+            "end": 26,
+            "value": "They are very good overall",
+            "entity": "mentors_text"
+          }
+        ],
+        "text": "They are very good overall"
+      },
+      {
+        "intent": "mentors",
+        "entities": [
+          {
+            "start": 0,
+            "end": 67,
+            "value": "I didn't like them at all, instructors are not present in the class",
+            "entity": "mentors_text"
+          }
+        ],
+        "text": "I didn't like them at all, instructors are not present in the class"
+      },
+      {
+        "intent": "mentors",
+        "entities": [
+          {
+            "start": 0,
+            "end": 38,
+            "value": "Very well group of TA's led by Mr. Ken",
+            "entity": "mentors_text"
+          }
+        ],
+        "text": "Very well group of TA's led by Mr. Ken"
+      },
+      {
+        "intent": "mentors",
+        "entities": [
+          {
+            "start": 0,
+            "end": 57,
+            "value": "TA's in general are ok, however they are not very helpful",
+            "entity": "mentors_text"
+          }
+        ],
+        "text": "TA's in general are ok, however they are not very helpful"
+      },
+      {
+        "intent": "mentors",
+        "entities": [
+          {
+            "start": 0,
+            "end": 68,
+            "value": "The class is run by TA's. Specially Head TA is very active on Piazza",
+            "entity": "mentors_text"
+          }
+        ],
+        "text": "The class is run by TA's. Specially Head TA is very active on Piazza"
+      },
+      {
+        "intent": "mentors",
+        "entities": [
+          {
+            "start": 0,
+            "end": 74,
+            "value": "Not bad, not bad at all, they are active, responding to students regularly",
+            "entity": "mentors_text"
+          }
+        ],
+        "text": "Not bad, not bad at all, they are active, responding to students regularly"
+      },
+      {
+        "intent": "mentors",
+        "entities": [
+          {
+            "start": 0,
+            "end": 87,
+            "value": "Head TA Ian is very responsive on the forums, the rest of instructors are there as well",
+            "entity": "mentors_text"
+          }
+        ],
+        "text": "Head TA Ian is very responsive on the forums, the rest of instructors are there as well"
+      },
+      {
+        "intent": "mentors",
+        "entities": [
+          {
+            "start": 0,
+            "end": 66,
+            "value": "Professor is very active, answering studnets on Pizza all the time",
+            "entity": "mentors_text"
+          }
+        ],
+        "text": "Professor is very active, answering studnets on Pizza all the time"
+      },
+      {
+        "intent": "mentors",
+        "entities": [
+          {
+            "start": 0,
+            "end": 44,
+            "value": "Profeeor and his assistants are very helfpul",
+            "entity": "mentors_text"
+          }
+        ],
+        "text": "Profeeor and his assistants are very helfpul"
+      },
+      {
+        "intent": "mentors",
+        "entities": [
+          {
+            "start": 0,
+            "end": 41,
+            "value": "Professor is absent, TA's are not helpful",
+            "entity": "mentors_text"
+          }
+        ],
+        "text": "Professor is absent, TA's are not helpful"
+      },
+      {
+        "intent": "mentors",
+        "entities": [
+          {
+            "start": 0,
+            "end": 11,
+            "value": "TA's are ok",
+            "entity": "assignments_text"
+          }
+        ],
+        "text": "TA's are ok"
+      },
+      {
+        "intent": "mentors",
+        "entities": [
+          {
+            "start": 0,
+            "end": 20,
+            "value": "TA's are not too bad",
+            "entity": "assignments_text"
+          }
+        ],
+        "text": "TA's are not too bad"
+      },
+      {
+        "intent": "mentors",
+        "entities": [
+          {
+            "start": 0,
+            "end": 21,
+            "value": "Profs and TA's are ok",
+            "entity": "assignments_text"
+          }
+        ],
+        "text": "Profs and TA's are ok"
+      },
+      {
+        "intent": "lectures",
+        "entities": [
+          {
+            "start": 0,
+            "end": 23,
+            "value": "The lectures were great",
+            "entity": "lectures_text"
+          }
+        ],
+        "text": "The lectures were great"
+      },
+      {
+        "intent": "lectures",
+        "entities": [
+          {
+            "start": 0,
+            "end": 111,
+            "value": "Generally, it is OK. Overall, Software Architecture and Design is worthwhile if you're interested in the topic.",
+            "entity": "lectures_text"
+          }
+        ],
+        "text": "Generally, it is OK. Overall, Software Architecture and Design is worthwhile if you're interested in the topic."
+      },
+      {
+        "intent": "lectures",
+        "entities": [
+          {
+            "start": 0,
+            "end": 41,
+            "value": "I found KBAI to be an interesting course.",
+            "entity": "lectures_text"
+          }
+        ],
+        "text": "I found KBAI to be an interesting course."
+      },
+      {
+        "intent": "lectures",
+        "entities": [
+          {
+            "start": 0,
+            "end": 37,
+            "value": "The lectures were ok, long but clear.",
+            "entity": "lectures_text"
+          }
+        ],
+        "text": "The lectures were ok, long but clear."
+      },
+      {
+        "intent": "lectures",
+        "entities": [
+          {
+            "start": 0,
+            "end": 65,
+            "value": "Lectures are some how not related to the projects ans assignments",
+            "entity": "lectures_text"
+          }
+        ],
+        "text": "Lectures are some how not related to the projects ans assignments"
+      },
+      {
+        "intent": "lectures",
+        "entities": [
+          {
+            "start": 0,
+            "end": 75,
+            "value": "I liked the video lectures and how well this course is executed in general.",
+            "entity": "lectures_text"
+          }
+        ],
+        "text": "I liked the video lectures and how well this course is executed in general."
+      },
+      {
+        "intent": "lectures",
+        "entities": [
+          {
+            "start": 0,
+            "end": 169,
+            "value": "Overall, I will say this is a very good course. It's tedious, somewhat vague, and frustrating at times. However, I feel it largely depends on the effort you put into it.",
+            "entity": "lectures_text"
+          }
+        ],
+        "text": "Overall, I will say this is a very good course. It's tedious, somewhat vague, and frustrating at times. However, I feel it largely depends on the effort you put into it."
+      },
+      {
+        "intent": "lectures",
+        "entities": [
+          {
+            "start": 0,
+            "end": 95,
+            "value": "This course has large number of lectures, but professor's sense of humor made them fun to watch",
+            "entity": "lectures_text"
+          }
+        ],
+        "text": "This course has large number of lectures, but professor's sense of humor made them fun to watch"
+      },
+      {
+        "intent": "lectures",
+        "entities": [
+          {
+            "start": 0,
+            "end": 49,
+            "value": "Interesting information. Video lectures are good.",
+            "entity": "lectures_text"
+          }
+        ],
+        "text": "Interesting information. Video lectures are good."
+      },
+      {
+        "intent": "lectures",
+        "entities": [
+          {
+            "start": 0,
+            "end": 38,
+            "value": "I found the lectures very frustrating.",
+            "entity": "lectures_text"
+          }
+        ],
+        "text": "I found the lectures very frustrating."
+      },
+      {
+        "intent": "lectures",
+        "entities": [
+          {
+            "start": 0,
+            "end": 49,
+            "value": "Lectures are superficial not related to homeworsk",
+            "entity": "lectures_text"
+          }
+        ],
+        "text": "Lectures are superficial not related to homeworsk"
+      },
+      {
+        "intent": "lectures",
+        "entities": [
+          {
+            "start": 0,
+            "end": 43,
+            "value": "I loved the lectures, they very informative",
+            "entity": "lectures_text"
+          }
+        ],
+        "text": "I loved the lectures, they very informative"
+      },
+      {
+        "intent": "lectures",
+        "entities": [
+          {
+            "start": 0,
+            "end": 26,
+            "value": "Outdated, and needs update",
+            "entity": "lectures_text"
+          }
+        ],
+        "text": "Outdated, and needs update"
+      },
+      {
+        "intent": "lectures",
+        "entities": [
+          {
+            "start": 0,
+            "end": 29,
+            "value": "Nice video lectures, but long",
+            "entity": "lectures_text"
+          }
+        ],
+        "text": "Nice video lectures, but long"
+      },
+      {
+        "intent": "lectures",
+        "entities": [
+          {
+            "start": 0,
+            "end": 17,
+            "value": "Lectures were fun",
+            "entity": "lectures_text"
+          }
+        ],
+        "text": "Lectures were fun"
+      },
+      {
+        "intent": "lectures",
+        "entities": [
+          {
+            "start": 0,
+            "end": 16,
+            "value": "Lectures were ok",
+            "entity": "lectures_text"
+          }
+        ],
+        "text": "Lectures were ok"
+      },
+      {
+        "intent": "lectures",
+        "entities": [
+          {
+            "start": 0,
+            "end": 15,
+            "value": "Lectures are ok",
+            "entity": "lectures_text"
+          }
+        ],
+        "text": "Lectures are ok"
+      },
+      {
+        "intent": "lectures",
+        "entities": [
+          {
+            "start": 0,
+            "end": 35,
+            "value": "I am not complaining about lecutres",
+            "entity": "lectures_text"
+          }
+        ],
+        "text": "I am not complaining about lecutres"
+      },
+      {
+        "intent": "lectures",
+        "entities": [
+          {
+            "start": 0,
+            "end": 20,
+            "value": "Lectures are alright",
+            "entity": "lectures_text"
+          }
+        ],
+        "text": "Lectures are alright"
+      },
+      {
+        "intent": "lectures",
+        "entities": [
+          {
+            "start": 0,
+            "end": 18,
+            "value": "Excellent lectures",
+            "entity": "lectures_text"
+          }
+        ],
+        "text": "Excellent lectures"
+      },
+      {
+        "intent": "lectures",
+        "entities": [
+          {
+            "start": 0,
+            "end": 12,
+            "value": "Lects are ok",
+            "entity": "lectures_text"
+          }
+        ],
+        "text": "Lects are ok"
+      },
+      {
+        "intent": "scale",
+        "text": "1"
+      },
+      {
+        "intent": "scale",
+        "text": "2"
+      },
+      {
+        "intent": "scale",
+        "text": "3"
+      },
+      {
+        "intent": "scale",
+        "text": "4"
+      },
+      {
+        "intent": "scale",
+        "text": "5"
+      },
+      {
+        "intent": "scale",
+        "text": "1/5"
+      },
+      {
+        "intent": "scale",
+        "text": "2/5"
+      },
+      {
+        "intent": "scale",
+        "text": "3/5"
+      },
+      {
+        "intent": "scale",
+        "text": "4/5"
+      },
+      {
+        "intent": "scale",
+        "text": "5/5"
+      }
+    ],
+    "regex_features": [],
+    "lookup_tables": [],
+    "entity_synonyms": []
+  }
+}

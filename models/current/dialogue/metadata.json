@@ -1,0 +1,65 @@
+{
+  "action_fingerprints": {
+    "action_listen": {
+      "slots": [
+        "student_name",
+        "mentors_text",
+        "difficulty_text",
+        "lectures_text",
+        "course_name",
+        "assignments_text"
+      ]
+    },
+    "action_detect_difficulty_emotions_ask_assignments": {
+      "slots": [
+        "sentiment_difficulty_score"
+      ]
+    },
+    "action_detect_assignments_emotions_ask_mentors": {
+      "slots": [
+        "sentiment_assignments_score"
+      ]
+    },
+    "action_detect_mentors_emotions_ask_lectures": {
+      "slots": [
+        "sentiment_mentors_score"
+      ]
+    },
+    "utter_thanks": {
+      "slots": []
+    },
+    "utter_ask_difficulty": {
+      "slots": []
+    },
+    "utter_greet": {
+      "slots": []
+    },
+    "utter_goodbye": {
+      "slots": []
+    },
+    "utter_ask_course": {
+      "slots": []
+    },
+    "action_restart": {
+      "slots": []
+    }
+  },
+  "python": "3.6.8",
+  "max_histories": [
+    5,
+    null,
+    5,
+    2
+  ],
+  "ensemble_name": "rasa_core.policies.ensemble.SimplePolicyEnsemble",
+  "policy_names": [
+    "rasa_core.policies.keras_policy.KerasPolicy",
+    "rasa_core.policies.fallback.FallbackPolicy",
+    "rasa_core.policies.memoization.MemoizationPolicy",
+    "rasa_core.policies.form_policy.FormPolicy"
+  ],
+  "trained_at": "20190701-010407",
+  "rasa_core": "0.14.5",
+  "tensorflow": "1.13.1",
+  "sklearn": "0.20.2"
+}
